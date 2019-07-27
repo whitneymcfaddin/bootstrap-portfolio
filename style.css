@@ -1,0 +1,168 @@
+header {
+  color: white;
+  background: #ffffff;
+  border: #cccccc;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color:#777777;
+  background: white;
+}
+
+.container_0 {
+  width: 300px;
+  margin: left;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #ffffff;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1rem;
+  color:#343A40;
+}
+
+a {
+  color: #d21034;
+}
+.header_1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #343A40
+}
+
+.bio-image {
+  min-width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.container_contact {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0, 10%;
+  background: #ffffff;
+}
+
+.main-bio,
+.contact-info,
+.bio-image {
+  float: left;
+}
+
+.main-bio {
+  width: 100%;
+  padding: 0, 10%;
+  background: #ffffff;
+}
+
+.contact-info {
+  width: 30%;
+}
+
+.btn-group {
+  color:#777777;
+  text-align: right;
+  width: auto
+}
+
+.bio-image:hover {
+  min-width: 400px;
+}
+
+.fname {
+  width: 33%;
+  margin: right;
+  float:center;
+}
+
+.text{
+  max-width: 30%;
+  height: auto;
+}
+
+.subject {
+  width: 75%;
+  margin: center; 
+}
+
+.lname {
+  margin: 0 auto;
+  width: 33%;
+  padding: 0, 10%;
+  background: #ffffff; 
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343A40;
+  color: white;
+  text-align: center;
+}
+
+.firstname {
+  margin: 0 auto;
+  width: 50%;
+  padding: 0, 50%;
+  background: #ffffff; 
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+#main-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  .h3, h3 {
+    font-size: 1.75rem;
+}
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+  box-sizing: border-box
+}
